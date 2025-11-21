@@ -1,0 +1,14 @@
+[2025-11-21 22:26:27] [/workspaces/inclass7] source .devcontainer/shell.sh
+[2025-11-21 22:26:54] [/workspaces/inclass7] ps
+[2025-11-21 22:28:33] [/workspaces/inclass7] sleep 500 &
+[2025-11-21 22:28:37] [/workspaces/inclass7] ps
+[2025-11-21 22:28:48] [/workspaces/inclass7] kill 5585
+[2025-11-21 22:29:26] [/workspaces/inclass7] ps aux
+[2025-11-21 22:31:18] [/workspaces/inclass7] ps aux --sort=-%cpu | head
+[2025-11-21 22:33:24] [/workspaces/inclass7] yes
+[2025-11-21 22:33:42] [/workspaces/inclass7] yes >/dev/null
+[2025-11-21 22:33:53] [/workspaces/inclass7] yes >/dev/null &
+[2025-11-21 22:34:11] [/workspaces/inclass7] jobs
+[2025-11-21 22:34:18] [/workspaces/inclass7] kill -8170
+[2025-11-21 22:34:30] [/workspaces/inclass7] kill -9 8170
+[2025-11-21 22:36:33] [/workspaces/inclass7] htop
